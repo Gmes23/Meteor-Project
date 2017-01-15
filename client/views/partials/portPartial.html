@@ -5,7 +5,7 @@
         <img src="{{this.image}}">
       </div>
       <div class="card-content">
-        <p>Posted by {{this.user.email}}</p>
+        <p>Posted by {{this.user.email}} {{this.createdAt}}</p>
       </div>
       <div class="card-action">
         {{#if isAdminOrCreator this}}
